@@ -1,0 +1,72 @@
+@import "vars";
+
+@font-face{
+	font-family:'ProximaNovaBold';
+	src:url(../fonts/ProximaNovaBold.eot);
+	src:url(../fonts/ProximaNovaBold.woff) format("woff"),
+	url(../fonts/ProximaNovaBold.ttf) format("truetype"),
+	url(../fonts/ProximaNovaBold.svg) format("svg");
+	font-weight:400;font-style:normal;
+}
+@font-face{
+	font-family:'ProximaNovaExtrabold';
+	src:url(../fonts/ProximaNovaExtrabold.eot);
+	src:url(../fonts/ProximaNovaExtrabold.woff) format("woff"),
+	url(../fonts/ProximaNovaExtrabold.ttf) format("truetype"),
+	url(../fonts/ProximaNovaExtrabold.svg) format("svg");
+	font-weight:400;
+	font-style:normal;
+}
+@font-face{
+	font-family:'ProximaNovaRegular';
+	src:url(../fonts/ProximaNovaRegular.eot);
+	src:url(../fonts/ProximaNovaRegular.woff) format("woff"),
+	url(../fonts/ProximaNovaRegular.ttf) format("truetype"),
+	url(../fonts/ProximaNovaRegular.svg) format("svg");
+	font-weight:400;
+	font-style:normal;
+}
+@font-face{
+	font-family:'ProximaNovaSemibold';
+	src:url(../fonts/ProximaNovaSemibold.eot);
+	src:url(../fonts/ProximaNovaSemibold.woff) format("woff"),
+	url(../fonts/ProximaNovaSemibold.ttf) format("truetype"),
+	url(../fonts/ProximaNovaSemibold.svg) format("svg");
+	font-weight:400;
+	font-style:normal;
+}
+@font-face {
+  font-family: 'font_awesome';
+  font-style: normal;
+  font-weight: normal;
+  src: url('../fonts/fa-brands-400.eot');
+  src: url('../fonts/fa-brands-400.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/fa-brands-400.woff2') format('woff2'),
+  url('../fonts/fa-brands-400.woff') format('woff'),
+  url('../fonts/fa-brands-400.ttf') format('truetype'),
+  url('../fonts/fa-brands-400.svg#fontawesome') format('svg');
+}
+
+
+@font-face {
+  font-family: 'font_awesome';
+  font-style: normal;
+  font-weight: 900;
+  src: url('../fonts/fa-solid-900.eot');
+  src: url('../fonts/fa-solid-900.eot?#iefix') format('embedded-opentype'),
+  url('../fonts/fa-solid-900.woff2') format('woff2'),
+  url('../fonts/fa-solid-900.woff') format('woff'),
+  url('../fonts/fa-solid-900.ttf') format('truetype'),
+  url('../fonts/fa-solid-900.svg#fontawesome') format('svg');
+}
+
+.fa,
+.fas {
+  font-family: 'font_awesome';
+  font-weight: 900;
+}
+.fab {
+  font-family: 'font_awesome';
+}
+
+
